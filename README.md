@@ -4,22 +4,22 @@
 
 ## 🎯 Objetivo
 
-Consolidar os conhecimentos sobre o Amazon EC2 (Elastic Compute Cloud), documentar as etapas realizadas durante o laboratório e manter um material de consulta para estudos futuros.
+Consolidar os conhecimentos sobre o Amazon EC2 (Elastic Compute Cloud), registrar as etapas realizadas durante o laboratório e manter um material de consulta para estudos futuros.
 
 ## ☁️ O que é Amazon EC2?
 
-O Amazon EC2 é um serviço da AWS que permite provisionar servidores virtuais na nuvem. Uma instância EC2 pode executar aplicações, APIs, sites, serviços e ambientes de desenvolvimento, conforme o sistema operacional e os recursos escolhidos.
+O Amazon EC2 é um serviço da AWS que permite provisionar servidores virtuais na nuvem. Uma instância EC2 pode executar aplicações, APIs, sites, serviços e ambientes de desenvolvimento, de acordo com o sistema operacional e os recursos escolhidos.
 
 ## 🧠 Conceitos importantes
 
 | Conceito | Explicação |
 |---|---|
 | Instância | Servidor virtual executado na AWS. |
-| AMI | Imagem usada como modelo para iniciar uma instância, incluindo sistema operacional e configurações básicas. |
-| Tipo de instância | Define recursos de computação, memória, armazenamento e rede disponíveis. |
+| AMI | Imagem usada como modelo para iniciar uma instância, incluindo o sistema operacional e as configurações básicas. |
+| Tipo de instância | Define os recursos de computação, memória, armazenamento e rede disponíveis. |
 | Região e zona de disponibilidade | A região é uma área geográfica da AWS; as zonas são locais isolados dentro de uma região. |
 | Par de chaves | Permite autenticação segura em métodos compatíveis, como SSH em instâncias Linux. A chave privada deve ser protegida. |
-| Security Group | Firewall virtual que controla tráfego de entrada e saída da instância. |
+| Security Group | Firewall virtual que controla o tráfego de entrada e saída da instância. |
 | EBS | Serviço de armazenamento em bloco que pode ser associado a instâncias EC2. |
 | IP público | Endereço que pode permitir acesso pela internet, dependendo da configuração de rede e das regras de segurança. |
 
@@ -66,7 +66,7 @@ Passos gerais no console:
 
 **Resultado observado:** `PREENCHER`
 
-**Importante:** não abra portas para `0.0.0.0/0` sem necessidade. Para SSH (porta 22), restrinja a origem ao seu IP sempre que possível. Não publique chaves privadas, senhas, tokens, IDs de conta ou outros dados sensíveis nas capturas de tela.
+**Importante:** não abra portas para `0.0.0.0/0` sem necessidade. Para SSH (porta 22), restrinja a origem ao seu IP sempre que possível. Não publique chaves privadas, senhas, tokens, IDs de conta ou outros dados sensíveis em capturas de tela.
 
 ### 4. Ciclo de vida da instância
 
@@ -83,9 +83,9 @@ Passos gerais no console:
 
 - Escolha o tipo de instância de acordo com a necessidade do laboratório.
 - Confira os preços e as condições atuais do AWS Free Tier antes de iniciar recursos.
-- Pare ou encerre recursos quando não forem mais necessários, conforme o objetivo do exercício.
+- Pare ou encerre os recursos quando não forem mais necessários, conforme o objetivo do exercício.
 - Verifique volumes EBS, endereços IP públicos e outros recursos associados: alguns podem gerar cobrança mesmo quando a instância está parada.
-- Configure alertas de orçamento quando apropriado. Alertas de orçamento ajudam a monitorar gastos, mas não garantem interrupção automática de recursos.
+- Configure alertas de orçamento quando apropriado. Eles ajudam a monitorar gastos, mas não garantem a interrupção automática de recursos.
 - Aplique o princípio do menor privilégio em IAM e nas regras de rede.
 - Nunca envie credenciais ou chaves privadas para o GitHub.
 
@@ -124,4 +124,4 @@ Este repositório serve como registro de estudo sobre o gerenciamento de instân
 
 ---
 
-**Status do projeto:** documentação inicial criada; atualizar os campos `PREENCHER` e as caixas de seleção com base na prática realizada.
+**Status do projeto:** documentação inicial criada; atualize os campos `PREENCHER` e as caixas de seleção com base na prática realizada.
